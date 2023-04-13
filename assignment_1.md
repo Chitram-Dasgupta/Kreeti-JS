@@ -9,7 +9,7 @@ Write a program that declares a variable using var, let, and const and prints th
 
 ## Answer
 
-```
+```js
 var x = 10
 
 let y = 20
@@ -27,7 +27,7 @@ Write a program that reassigns a value to a variable declared with let and print
 
 ## Answer
 
-```
+```js
 let x = 10
 
 x = 20
@@ -41,7 +41,7 @@ Write a program that tries to reassign a value to a variable declared with const
 
 ## Answer
 
-```
+```js
 const x = 10
 
 x = 20 // This will throw error
@@ -57,7 +57,7 @@ Write a program to declare a const, let, var variable within an if statement and
 
 ## Answer
 
-```
+```js
 if (5 > 3) {
   var x = 10
   let y = 20
@@ -78,7 +78,7 @@ Write a program that concatenates two or more strings and prints the result to t
 
 ## Answer
 
-```
+```js
 const first = 'Hello'
 const second = 'World'
 
@@ -93,7 +93,7 @@ Write a program that takes a string as input and prints the length of the string
 
 ## Answer
 
-```
+```js
 const prompt = require('prompt-sync')();
 
 const inp = prompt('What is your name?');
@@ -106,7 +106,7 @@ Write a program that converts a string to uppercase and prints the result to the
 
 ## Answer
 
-```
+```js
 let my_str = 'hello'
 let res = my_str.toUpperCase()
 
