@@ -124,3 +124,14 @@ b. `12 === '12'` will return `false`, because `===` compares the value as well a
 c. `Number(12) === 12` will return `true` because even though `Number(12)` returns a number object,
 the `===` operator will attempt *type-coercion*, which will succeed. As a result, the comparison will
 be done on the value and type of the number primitive 12, which indeed will return `true`.
+
+# Question 6
+
+What is NaN?
+
+## Answer
+
+In JavaScript, `Nan` stands for `Not-a-Number`. It is a *number primitive*
+which represents any number that is not legal. For example, attempting to
+convert a string(that is not a valid number) to a number will return a `Nan`:
+`Number(abc)` will return `Nan`.
